@@ -1,0 +1,39 @@
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent navbar from hiding section headings */
+
+section {
+  scroll-margin-top: 90px;
+}
+
+/* Global section title */
+
+section h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  color: #1b4f72;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+section h2::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #f18f01;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 20px;
+}
+
+/* Smooth animation */
+
+* {
+  transition: background-color .3s ease,
+              color .3s ease,
+              border-color .3s ease;
+}
