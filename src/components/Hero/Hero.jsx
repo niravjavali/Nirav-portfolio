@@ -14,11 +14,14 @@ function Hero() {
       <div className="hero-content">
 
         <p className="greeting">
-          {getGreeting()} 👋
+          {getGreeting()}
+          <span className="greeting-comma">,</span>
+          <span className="greeting-wave"> 👋</span>
         </p>
 
         <h1>
-          Hi, I'm <span>Nirav Javali</span>
+          <span className="hero-hi">Hi, </span>I'm <span>Nirav Javali</span>
+          <span className="hero-wave">👋</span>
         </h1>
 
         <h2>Artificial Intelligence & Machine Learning Student</h2>
