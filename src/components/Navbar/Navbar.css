@@ -98,11 +98,11 @@ body[data-theme="dark"] {
 }
 
 body[data-theme="dark"] .navbar {
-  background: #1b1b1b;
+  background: #111827;
 }
 
 body[data-theme="dark"] .nav-links {
-  background: #1b1b1b;
+  background: #111827;
 }
 
 body[data-theme="dark"] .nav-links a {
